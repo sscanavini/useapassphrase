@@ -46,7 +46,7 @@ function convertSecondsToReadable(seconds) {
   } else if (numSeconds < 60) {
     timeString = numSeconds + ' secondi';
   } else if (numMinutes < 60) {
-    timeString = numMinutes + ' minutei';
+    timeString = numMinutes + ' minuti';
   } else if (numHours < 24) {
     timeString = numHours + ' ore';
   } else if (numDays < 365) {
