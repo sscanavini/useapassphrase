@@ -15,7 +15,7 @@ function generatePassword(numberOfWords) {
 
   // Grab a random word, push it to the password array
   for (var i = 0; i < numberOfWords; i++) {
-      var index = Math.floor(randomNumberBetweenZeroAndOne() * 7776)
+      var index = Math.floor(randomNumberBetweenZeroAndOne() * 5869)
       generatedPasswordArray.push(wordlist[index]);
   }
 
@@ -77,7 +77,6 @@ calculateAndSetCrackTime();
 // Listen for a button click
 button.addEventListener('click', function() {
   var numberOfWords = selectField.options[selectField.selectedIndex].value;
-  alert(numberOfWords);
   passwordField.value = generatePassword(numberOfWords);
   setStyleFromWordNumber(passwordField, numberOfWords);
   calculateAndSetCrackTime();
