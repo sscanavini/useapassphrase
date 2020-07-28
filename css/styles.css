@@ -20,7 +20,7 @@ input {
   margin: 0 auto;
   font-size: 40px;
   height: 60px;
-  width: 90%;
+  width: 100%;
   text-align: center;
   padding: 1%;
 }
@@ -95,7 +95,7 @@ li {
 }
 .passphrase-label {
   margin: 0 auto 3px auto;
-  font-size: 75%;
+  font-size: 65%;
   color: #888;
   text-align: center;
 }
