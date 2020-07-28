@@ -18,7 +18,7 @@ h1 span {
 input {
   display: block;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 40px;
   height: 60px;
   width: 90%;
   text-align: center;
@@ -95,7 +95,7 @@ li {
 }
 .passphrase-label {
   margin: 0 auto 3px auto;
-  font-size: 55%;
+  font-size: 65%;
   color: #888;
   text-align: center;
 }
