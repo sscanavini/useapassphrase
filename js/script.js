@@ -42,19 +42,19 @@ function convertSecondsToReadable(seconds) {
   var numCenturies   = Math.floor(numSeconds / (60 * 60 * 24 * 365 * 100));
 
   if (numMilliseconds < 1000) {
-    timeString = numMilliseconds + ' milliseconds';
+    timeString = numMilliseconds + ' millisecondi';
   } else if (numSeconds < 60) {
-    timeString = numSeconds + ' seconds';
+    timeString = numSeconds + ' secondi';
   } else if (numMinutes < 60) {
-    timeString = numMinutes + ' minutes';
+    timeString = numMinutes + ' minutei';
   } else if (numHours < 24) {
-    timeString = numHours + ' hours';
+    timeString = numHours + ' ore';
   } else if (numDays < 365) {
-    timeString = numDays + ' days';
+    timeString = numDays + ' giorni';
   } else if (numYears < 100) {
-    timeString = numYears + ' years';
+    timeString = numYears + ' anni';
   } else {
-    timeString = numCenturies + ' centuries';
+    timeString = numCenturies + ' secoli';
   }
 
   return timeString.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
