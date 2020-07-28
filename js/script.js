@@ -77,6 +77,7 @@ calculateAndSetCrackTime();
 // Listen for a button click
 button.addEventListener('click', function() {
   var numberOfWords = selectField.options[selectField.selectedIndex].value;
+  alert(numberOfWords);
   passwordField.value = generatePassword(numberOfWords);
   setStyleFromWordNumber(passwordField, numberOfWords);
   calculateAndSetCrackTime();
