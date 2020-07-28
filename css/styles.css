@@ -1,6 +1,6 @@
 * {
   font-family: 'MH';
-  line-height: 160%;
+  line-height: 130%;
 }
 body {
   margin: 0;
@@ -20,7 +20,7 @@ input {
   margin: 0 auto;
   font-size: 40px;
   height: 60px;
-  width: 100%;
+  width: 90%;
   text-align: center;
   padding: 1%;
 }
