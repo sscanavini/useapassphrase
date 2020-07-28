@@ -19,7 +19,7 @@ function generatePassword(numberOfWords) {
       generatedPasswordArray.push(wordlist[index]);
   }
 
-  return generatedPasswordArray.join('-');
+  return generatedPasswordArray.join(' ');
 }
 
 function setStyleFromWordNumber(passwordField, numberOfWords) {
